@@ -5,18 +5,32 @@
 		<link rel="stylesheet" type="text/css" href="css/main.css">
 	</head>
 	<body>
-		<h1> MEMORY GAME </h1>
-		<div class="links">
-			<a href="#">Instructions</a>
-			<a href="#">Game</a>
-		</div>
-		<h2> Instructions </h2>
-		<div>
-			<img src="images/back.png" alt="Queen of Diamonds">
-			<img src="images/back.png" alt="Queen of Hearts">
-			<img src="images/back.png" alt="King of Diamonds">
-			<img src="images/back.png" alt="King of Hearts">
-		</div>
-			<p>	Concentration, also known as Match Match, Memory, Pelmanism, Shinkei-suijaku, Pexeso or simply Pairs, is a card game in which all of the cards are laid face down on a surface and two cards are flipped face up over each turn. The object of the game is to turn over pairs of matching cards. </p>
+		<header>
+			<h1> MEMORY GAME </h1>
+		</header>
+		<nav>
+			<a href="#instr">Instructions</a>
+			<a href="#game">Game</a>
+			<a href="#about">About</a>
+		</nav>
+		<main>
+			<section id="instr">
+				<h2> Instructions </h2>
+				<article>
+					<p>	Concentration, also known as Match Match, Memory, Pelmanism, Shinkei-suijaku, Pexeso or simply Pairs, is a card game in which all of the cards are laid face down on a surface and two cards are flipped face up over each turn. The object of the game is to turn over pairs of matching cards. </p>
+				</article>
+			</section>
+			<div id="game">
+				<img src="images/back.png" alt="Queen of Diamonds">
+				<img src="images/back.png" alt="Queen of Hearts">
+				<img src="images/back.png" alt="King of Diamonds">
+				<img src="images/back.png" alt="King of Hearts">
+			</div>
+		</main>
+		<footer id="about" class="clearfix">
+			<p class="copyright">Copyright 2017</p>
+			<p class="message">Created with &hearts; by <span class="name">GA</span></p>
+		</footer>
+		<script src="js/main.js"></script>
 	</body>
 </html>
