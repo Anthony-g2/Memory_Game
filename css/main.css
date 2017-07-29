@@ -102,3 +102,11 @@ a:hover {
   height: 0;
   font-size: 0;
 }
+
+button {
+	font-family: "Raleway", sans-serif;
+	text-transform: uppercase;
+	font-size: 20px;
+	letter-spacing: 1px;
+	font-weight: 500;
+}
