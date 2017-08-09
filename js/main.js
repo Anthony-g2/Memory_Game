@@ -46,12 +46,12 @@ var checkForMatch = function(){
 		if (cardsInPlay[0] === cardsInPlay[1]){
 			alert("That's a match!");
 		} else {
-			alert('Sorry, try again.');
+			wrong();
 		}
 	}
 };
 
-function reset(){
+var reset = function(){
   cardsInPlay = []; 
   cardElements = document.getElementById('game-board').children; 
   for (var i = 0; i < cardElements.length; ++i) {
@@ -63,4 +63,7 @@ var button = document.querySelector('button');
 button.addEventListener('click', reset);
 
 createBoard();
+wrong = function(){
+	alert("Sorry, try again.");
+}
 
